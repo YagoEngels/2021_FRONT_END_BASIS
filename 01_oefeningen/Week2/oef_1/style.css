@@ -1,14 +1,7 @@
-h1 {color:rgba(0, 213, 255);}
 p {font-family:Montserrat , sans-serif;
     text-align: center;}
 a {font-family:Montserrat, sans-serif;
     text-align: center;}
-html {
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(208,247,255,1) 100%); }
-h2 {
-    text-align: center;
-}
 * {
     text-align: center;
 }
@@ -35,8 +28,6 @@ article > iframe {
   font-size: 150%;
   margin-left: 4px;
   margin-right: 4px;
-  border: solid 1px;
-  border-radius: 10%;
 }
 a:link {
     background-color: rgba(208,247,255,1);
@@ -48,6 +39,7 @@ a:link {
   
   a:visited {
     text-decoration: none;
+    color: black;
   }
   
   a:hover {
@@ -58,4 +50,15 @@ a:link {
   
   a:active {
     text-decoration: none;
+  }
+
+  header {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(208,247,255,1) 100%); 
+    padding-top: 2;
+    padding-bottom: 2%;
+  }
+
+  h2 , h1 {
+    font-family: Ubuntu, sans-serif;
   }
