@@ -1,1 +1,175 @@
-azda
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-size: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgb(147, 162, 243);
+  
+  }
+  
+  header, footer, nav{
+    display: block;
+  }
+
+  #container{
+    width: 770px;
+    padding: 10px;
+    margin:auto;
+    background-color: white;
+  }
+
+  header{
+      background-image: url(../images/header.jpg);
+      width: 730px;
+      height: 175px;
+      padding: 20px;
+      color:white;
+  }
+  
+  header h1{
+    font-size: 1.8em;
+  }
+  header h2{
+    font-size: 0.8em;
+  }
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav ol{
+    display:grid;	
+  }
+  
+  nav li{
+    display:inline;
+    list-style: none;
+    background-color: rgb(147, 162, 243);
+    padding: 5px 10px;
+  }
+  
+  nav{
+    margin:10px 0px;
+  }
+  
+  nav li li:hover{
+    background-color: rgb(101, 135, 224);
+  }
+  
+  nav li ol{
+    padding-left: 10px;
+    margin-right:-10px;
+  }
+  
+  nav li li{
+    display:none;
+  }
+  
+  nav li:hover li{
+    display:inline;
+  }
+  #content h2{
+    font-size: 1.2em;
+    font-style: italic;
+    color: white;  
+    padding: 5px;
+    background-color: rgb(147, 162, 243);
+    border: 5px outset rgb(10, 135, 224);
+    border-radius: 0px 20px 0px 0px;
+  }
+  p{
+    border-bottom-style: dotted ;
+    border-bottom-color: rgb(147, 162, 243);
+    border-bottom-width: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px 0px;
+  }
+
+  table{
+    width:90%;
+    margin: 20px;
+    border:5px ridge rgb(91,90,71);
+  }
+  
+  th, td{
+      border:1px solid rgb(91,90,71);
+    padding: 5px;
+      }
+  
+  th{
+    font-weight: normal;
+    font-variant: small-caps;
+  }	
+  
+  tr:hover td{
+    background-color: #DDDDDD;
+  }
+  
+  fieldset{
+    padding: 10px;
+    border:3px double rgb(91,90,71);
+    border-radius: 10px; 
+  }
+  
+  legend{
+    padding: 0px 10px;
+    border:3px double rgb(91,90,71);
+    border-radius: 10px; 	
+  }
+  
+  input{
+    border: 2px solid rgb(91,90,71); 
+    font-family: Helvetica, Tahoma, Arial, sans-serif;
+    font-size: 1em;
+    padding: 5px;
+  }
+  
+  input[type="text"]{
+    border-radius:10px/5px;
+    margin: 0px 5px;
+    background-color: #EEEEEE;
+  }
+  
+  input[type="text"]:hover{
+    background-color:#DDDDDD;
+  }
+  
+  input[type="text"]:focus{
+    background-color:rgb(151, 151, 181);
+  }
+  
+  input[type="submit"]{
+    border-radius:10px;
+    background-color: rgb(151, 151, 161);
+    text-transform:capitalize;
+    font-weight:bold;
+  }
+  
+  input[type="submit"]:active{
+    border: 3px inset rgb(91,90,71); 
+  }
+  
+  
+  footer{
+    background-image: url("../images/header.jpg");
+    background-position: bottom;
+    margin-top:10px;
+    font-size: 0.6em;
+    text-align: right;
+    padding-left: 0px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+  }
+  
+
+  footer a{
+    color: white;
+    text-decoration: none;
+    display: block; 
+  }
