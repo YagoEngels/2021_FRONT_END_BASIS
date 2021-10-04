@@ -4,3 +4,128 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #ccc;
+    font-family: Georgia, serif;
+    line-height: 1.4;
+}
+
+#container {
+    width: 40em;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 3px 0 10px #555;
+}
+
+h1, h2, h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    clear: both;
+}
+
+header {
+    background-color: rgb(10, 3, 43);
+    position: relative;
+}
+
+h1 {
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+header img {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    color: #fff;
+    margin: 10px 20px;
+}
+
+nav li {
+    display: inline;
+    padding-right: 30px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav li.hier a {
+    text-decoration: none;
+    color: rgb(245, 217, 155);
+}
+
+nav li a:hover {
+    text-decoration: underline;
+    color: #ff0;
+}
+
+a:hover img {
+    width: 40px;
+}
+
+nav {
+    padding: 2px 0;
+    background-color: rgb(8, 3, 15);
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin: 20px 0 10px 0;
+}
+
+h3 {
+    margin: 15px 0 10px 0;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+q {
+    background-color: #eee;
+    float: left;
+    width: 15em;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    font-style: italic;
+    color: rgb(18, 7, 121);
+}
+
+footer {
+    background-color: rgb(10, 3, 43);
+}
+
+p em {
+    background-color: #ff6;
+}
+
+p strong {
+    font-weight: normal;
+    text-transform: uppercase;
+    color: rgb(30, 88, 3)
+}
+
+img.rechts {
+    float: right;
+    margin: 5px 0 5px 10px;
+}
+
+article h2 {
+    text-align: right;
+    border-top: 1px solid #999
+}
+
+footer p {
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
