@@ -1,11 +1,41 @@
-   body, html {
-    height: 100%;
-    margin: 0;
-  }
-  .bg {
-    min-height: 100%;
-    background-image: url(img/milo-weiler-ejS99Hbzr54-unsplash.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
- }
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #575a5e ;
+}
+.bg {
+  min-height: 100%;
+  background-image: url(img/milo-weiler-ejS99Hbzr54-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #96aab470;
+}
+nav ul li{
+  display: block;
+  color: #E4B9A2;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.header {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
+  font-size: 200%;
+}
+
+li:hover {
+  background-color: #111;
+}
