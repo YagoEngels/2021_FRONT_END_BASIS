@@ -16,26 +16,81 @@ nav ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #96aab470;
 }
 nav ul li{
   display: block;
+  background-color: #96aab470;
   color: #E4B9A2;
   text-align: center;
   text-decoration: none;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .header {
   margin-left: auto;
   margin-right: auto;
-  max-width: 75%;
+  max-width: 85%;
   font-size: 200%;
 }
 
 li:hover {
-  background-color: #111;
+  background-color: #E4B9A2;
+  color: #575a5e;
+  text-decoration: none;
+}
+
+li a:link {
+  color: #E4B9A2;
+  text-decoration: none;
+}
+li a:visited {
+  color:inherit;
+  text-decoration: none;
+}
+.bg2 {
+  min-height: 4%;
+  background-image: 
+  linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 70%, rgba(0,0,0,0.5) 100%),url(img/milo-weiler-ejS99Hbzr54-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer{
+  color: #E4B9A2;
+  height: 4%;
+  display: flex;
+  align-items: center;
+}
+
+.section {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  max-width: 70%;
+  font-size: 150%;
+  background-color: #96aab470;
+  color: #E4B9A2;
+  padding: 3%;
+}
+
+.section2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  max-width: 85%;
+  font-size: 150%;
+  background-color: #E4B9A2;
+  color: #96aab470;
+  padding: 3%;
+}
+
+.section2 img{
+  max-width: 100%;
+  height: auto;
 }
