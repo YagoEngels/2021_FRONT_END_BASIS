@@ -1,1 +1,7 @@
 dit is een random text file waar dingen in kunnen worden gezet
+dit is het colorpacket 
+color 1 #575A5E
+color 2 #E4B9A2
+color 3 #96AAB4
+#96aab470 word gebruikt bij background van de nav
+color 4 #A3B9C3
