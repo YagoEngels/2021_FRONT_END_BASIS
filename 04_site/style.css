@@ -36,7 +36,7 @@ nav ul li{
   font-size: 200%;
 }
 
-li:hover {
+ ul li:hover {
   background-color: #E4B9A2;
   color: #575a5e;
   text-decoration: none;
@@ -93,4 +93,17 @@ footer{
 .section2 img{
   max-width: 100%;
   height: auto;
+  object-fit: cover;
+}
+
+.section3 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  max-width: 85%;
+  font-size: 150%;
+  background-color: #575a5e;
+  color: #E4B9A2;
+  padding: 3%;
 }
